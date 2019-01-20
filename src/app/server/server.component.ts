@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
     templateUrl:'./server.component.html'
 })
 export class Servercomponent{
-
+Name = 'malindu Ruwantha';
+Id = 10;
 }
