@@ -4,9 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+
+import {Servercomponent} from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Servercomponent,
+    ServersComponent 
   ],
   imports: [
     BrowserModule,
