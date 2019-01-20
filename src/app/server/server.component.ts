@@ -6,4 +6,17 @@ import { Component } from '@angular/core';
 export class Servercomponent{
 Name = 'malindu Ruwantha';
 Id = 10;
+numberone=0;
+numbertwo=0;
+total=0;
+getName(){
+    return this.Name;
+}
+
+getvalue(){
+    this.total=this.numberone+this.numbertwo;
+    return this.total;
+}
+
+
 }
