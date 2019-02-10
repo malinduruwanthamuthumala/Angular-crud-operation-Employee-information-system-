@@ -7,11 +7,23 @@ import { FormsModule } from '@angular/forms';
 
 import {Servercomponent} from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { ListemployeesComponent } from './employee/listemployees.component';
+import { ProductComponent } from './product/product.component';
+import { ProductDeleteComponent } from './product-delete/product-delete.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
+import { ProductCreateComponent } from './product-create/product-create.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     Servercomponent,
-    ServersComponent 
+    ServersComponent,
+    ListemployeesComponent,
+    ProductComponent,
+    ProductDeleteComponent,
+    ProductEditComponent,
+    ProductCreateComponent,
+    NavbarComponent 
   ],
   imports: [
     BrowserModule,
